@@ -1,0 +1,258 @@
+html{
+    font-family: oswald, sans-serif;
+    margin: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 0;
+    background-image: url("https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/hero-01.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.head-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.list-cont-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.list-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    width: 25vw;
+    
+    
+}
+.list-item{
+    list-style: none;
+    margin: 30px 0;
+    
+}
+.list-link{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+    font-size: 15px;
+
+}
+@keyframes anim-exp{
+    from{
+        font-size: 16px;
+    }
+    to{
+        font-size: 20px;
+    
+    }
+}
+.list-link:hover{
+    color: rgb(193,154,131);
+    font-size: large;
+}
+.head-text{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+.img-cont svg{
+    padding: 3rem;
+    border : 2px solid rgb(237,237,237);
+    margin: 12px;
+    
+}
+.shop-category{
+    margin-top: 80px;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.card-1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    width: 20vw;
+  
+}
+.card-2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    width: 30vw;
+    background-color: rgb(241,243,242);
+}
+.innertext{
+    width: 17%;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    margin-top: 250px;
+    margin-left: 25px;
+}
+
+.shop_btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:oswald, sans-serif ;
+    color: white;
+    background-color: black;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+.shop_btn:hover{
+    background-color: rgb(193,154,131);
+    color: white;
+}
+.card-description{
+    Font-size: 22px;
+    Font-weight: 400;
+    Line-height: 22px;
+
+}
+.color_change1{
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: black;
+
+}
+.color_change2{
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(143,100,83);
+
+}
+.color_change3{
+    border: 4px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(218,188,162);
+
+}
+.new_products{
+
+}
+.new_products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.card-3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 25px;
+    width: 20vw;
+}
+.feedback{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 20px;
+    height:25vw ;
+    
+    
+}
+
+.card-4{
+    border: 1px solid rgb(241,243,242) ;
+    height:23vw;
+    width: 31vw;
+    background-color: rgb(241,243,242);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;   
+
+    
+}
+
+.choose-us{
+    height: 200px;
+    width:90vw;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vw;
+
+    
+}
+.choose_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    padding-left: 60px;
+    
+
+}
+
+.card-5{
+    margin-top: 50px;
+    height: 5vw;
+    width: 20vw;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer{
+
+    text-align:start;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-color:rgb(241,242,242);
+    height: 10vw;
+    width: 98vw;
+}
+.footer_links{
+    display: flex;
+    justify-content: end;
+}
