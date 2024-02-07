@@ -1,12 +1,25 @@
 html{
     font-family: oswald, sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
     
 }
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    animation: body-anim 1s ease-in-out; 
+}
+
+@keyframes body-anim{
+    from{
+        opacity:0;
+       
+    }
+    to{
+        opacity:1;
+        
+    }
 }
 .header{
     margin: 0;
@@ -35,7 +48,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0;
-    width: 25vw;
+    width: 400px;
     
     
 }
@@ -79,15 +92,16 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 
 }
 .img-cont svg{
-    padding: 3rem;
+    padding: 50px;
     border : 2px solid rgb(237,237,237);
     margin: 12px;
     
 }
-.shop-category{
+#shop-category{
     margin-top: 80px;
     text-align: center;
 }
@@ -97,23 +111,24 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 .card-1{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 25px;
-    width: 20vw;
+    width:300px;
   
 }
 .card-2{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     margin-right: 25px;
-    width: 30vw;
+    width: 452px;
     background-color: rgb(241,243,242);
 }
 .innertext{
-    width: 17%;
+    width: 270px;
     background-color: white;
     position: absolute;
     text-align: center;
@@ -173,22 +188,27 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap
 
 
+}
+.collection img{
+    width: 60vw;
+    height: auto;
 }
 .card-3{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 25px;
-    width: 20vw;
+    width: 450px;
 }
 .feedback{
     margin-top: 20px;
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items: center;
     padding-left: 20px;
-    height:25vw ;
+    flex-wrap: wrap;
     
     
 }
@@ -209,7 +229,7 @@ body{
 }
 
 .choose-us{
-    height: 200px;
+    
     width:90vw;
     margin-top: 40px;
 
@@ -226,14 +246,16 @@ body{
     margin-top: 30px;
     margin-left: 40px;
     padding-left: 60px;
+    flex-wrap: wrap;
+    
     
 
 }
 
 .card-5{
-    margin-top: 50px;
+    margin-top: 90px;
     height: 5vw;
-    width: 20vw;
+    width: 300px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -246,13 +268,27 @@ body{
 
     text-align:start;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: end;
     background-color:rgb(241,242,242);
     height: 10vw;
-    width: 98vw;
+    width: 98.9vw;
 }
 .footer_links{
     display: flex;
     justify-content: end;
+}
+
+@media screen and (max-width:1240px){
+    .card-4{
+        width: 400px;
+        margin-top: 50px;
+        height: max-content;
+    }
+    .feedback{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
 }
